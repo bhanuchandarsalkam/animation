@@ -1,31 +1,53 @@
-.anime{
-    width:200px;
-    height:200px;
-    animation:color;
-    animation-delay:2s;
-    animation-duration:2s;
-    animation-iteration-count:infinite;
-    animation-timing-function: ease-out;
+*{
+	background-color:#f5f5f5;
+	padding:0px;
+	margin:0px;
 }
-@keyframes color{
-    0%{
-        background-color:blue;
-        transform:rotate(45deg);
-    }
-    25%{
-        background-color:green;
-        transform:rotate(90deg);
-    }
-    50%{
-        background-color:red;
-        transform:rotate(180deg);
-    }
-    75%{
-        background-color:yellow;
-        transform:rotate(270deg);
-    }
-    100%{
-        background-color:pink;
-        transform:rotate(360deg);
-    }
+.header h2{
+	display:flex;
+	justify-content:center;
+	color:white;
+	background-color:#011e29;
+	height:100px;
+	align-items:center;
+}
+.unorder{
+	padding:0px 100px;
+}
+.latest-news-section{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.center{
+	text-align:center;
+}
+.center h2{
+	font-size:15px;
+}
+.para h2{
+	font-size:15px;
+  padding:0px 10px;
+}
+.para{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.lipsum{
+	padding:0px 10px;
+    width:500px;
+}
+img{
+	width:200px;
+	height:100px;
+    padding:10px 10px;
+}
+.container{
+	margin:10px;
+	display:flex;
+    justify-content:space-around;
+	gap:10px;
+}
+h3{
+	font-size:15px;
+}
+.pictorial-news-section{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
